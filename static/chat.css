@@ -1,0 +1,11 @@
+.message-box {
+  overflow-wrap: break-word;
+  padding-bottom: 1.5em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 20vh;
+  background-color: grey;
+}
