@@ -4,16 +4,25 @@
 <head>
   <title>Upload new File</title>
   <link rel="stylesheet" href="static/chat.css">
+  <script src="static/jquery-3.7.1.min.js"></script>
+  <script src="static/update_message_box.js"></script>
 </head>
 
 <body>
   <h1>Upload new File</h1>
-  <form method=post enctype=multipart/form-data>
-    <input type=file name=file>
-    <input type=submit value=Upload>
+  <form method="POST" enctype=multipart/form-data>
+    <input type="file" id="file" name="file">
+    <input type="submit">
   </form>
-  <div class="message-box">
-    HaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHa
+  <div id="message-box" class="message-box">
+    <div style="width: 100%;text-align: left;">Welcome to Dr. GPT! How can I help?</div>
+  </div>
+  <div style="margin-left: 15%;">
+    <form id="chat-form" method="POST">
+      <div style="display: inline;">
+        <input type="text" id="chat-text-input"> <button type="submit">Send</button>
+      </div>
+    </form>
   </div>
 </body>
 
