@@ -5,7 +5,7 @@ $(document).ready(function () {
     var userMessage = $('#chat-text-input').val();
 
     // Display user's message in the message box
-    $('#message-box').append("<div style='width:100%;text-align:right;'>" + userMessage + "</div>");
+    $('#message-box').append("<div style='width:100%;display:flex;align-items:right;justify-content:right;'> <p style='background-color:steelblue; border: 2px solid steelblue;border-radius: 12px; padding: 5px;'>" + userMessage + "</p></div>");
 
     // Display "Bot is thinking" message
     $('#message-box').append("<div style='width:100%;text-align:left;color:gainsboro;'>Bot is thinking...</div>");
@@ -23,7 +23,7 @@ $(document).ready(function () {
       $('#message-box').find('div:contains("Bot is thinking")').remove();
 
       // Display the bot's response in the message box
-      $('#message-box').append("<div style='width:100%;text-align:left;'>" + data["response"] + "</div>");
+      $('#message-box').append("<div style='width:100%;display:flex;align-items:left;justify-content:left;'> <p style='background-color:gray; border: 2px solid gray;border-radius: 12px; padding: 5px;'>" + data["response"] + "</p></div>");
     });
 
     // Prevent the default form submission behavior

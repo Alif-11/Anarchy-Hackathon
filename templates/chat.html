@@ -99,11 +99,14 @@
       <input type="text" id="openai-key">
     </div>
     <div id="message-box" class="message-box">
-      <div>Welcome to Dr. GPT! How can I help?</div>
+      <div style='width:100%;display:flex;align-items:left;justify-content:left;'>
+        <p style='background-color:gray; border: 2px solid gray;border-radius: 12px; padding: 5px;'> Welcome to Anarchy!
+          How may I help? </p>
+      </div>
     </div>
     <form id="chat-form" method="POST">
       <div>
-        <input type="text" id="chat-text-input"> <button type="submit">Send</button>
+        <input type="text" id="chat-text-input" placeholder="Send message..."> <button type="submit">Send</button>
       </div>
     </form>
   </div>
