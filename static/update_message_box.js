@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('#message-box').append("<div style='width:100%;text-align:right;'>" + userMessage + "</div>");
 
     // Display "Bot is thinking" message
-    $('#message-box').append("<div style='width:100%;text-align:left;color:gray;'>Bot is thinking...</div>");
+    $('#message-box').append("<div style='width:100%;text-align:left;color:gainsboro;'>Bot is thinking...</div>");
 
     // Make an AJAX request to the server with the user's input and OpenAI key
     $.ajax({
