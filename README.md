@@ -7,3 +7,4 @@ This repository holds my team's hackathon project for the 2024 Anarchy Winter Ha
 [Ideas for Message Box Styling](https://www.youtube.com/watch?v=mkXdvs8H7TA) \
 [Achieving Vertical Scroll](https://www.geeksforgeeks.org/making-a-div-vertically-scrollable-using-css/) \
 [Updating Message Box Without Refreshing Page](https://ayumitanaka13.medium.com/how-to-use-ajax-with-python-flask-729c0a8e5346)
+[Custom Font](https://scalablecss.com/setup-custom-fonts-with-font-face/)
