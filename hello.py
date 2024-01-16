@@ -34,4 +34,4 @@ def response():
             )
         except Exception as e:
             print(e)
-            return jsonify({"response": "Error! There has been an issue with our response."})
+            return jsonify({"response": "Error! There has been an issue with our response. Maybe there is an issue with your openai key?"})
